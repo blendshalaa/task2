@@ -129,7 +129,7 @@ const tabData = [
 const App = () => {
   return (
     <div>
-      <h1>My Tabs Component with Cards</h1>
+  
       <Tabs>
         <TabList>
           {tabData.map(tab => (
