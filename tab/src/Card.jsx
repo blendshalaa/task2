@@ -2,6 +2,7 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
 import '../src/tabs.css';
+import 'react-tabs/style/react-tabs.css';
 
 const Card = ({ title, subtitle, text, buttonLabel }) => (
   <div className="card">
